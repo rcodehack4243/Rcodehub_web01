@@ -1,20 +1,79 @@
  *{
      margin: 0;
      padding: 0;
+     background-color: #67ce6c;
  }
 
+ .ull li a{
+     text-decoration: none;
+     color: white;
+     font-size: 20;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .ull li a:hover{
+    text-decoration: none;
+    color: red;
+    font-size: 20;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body h1{
     margin: 0 auto;
     padding: 1%;
     color: white;
+    background-color: #31d139;
   
 }
 
 .header{
-    height: 60;
+    height: 60px;
     width: 500;
     padding: 0%;
     margin: 0%;
     display: flex;
-    background-color: #67ce6c;
+    background-color: #31d139;
+}
+.image{
+    display: block;
+    height: 300;
+    width: 100vh;
+}
+
+.image img{
+    height: 300;
+    width: 100vh;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.tableview{
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+.table1{
+    padding: 2px 2px;
+  
+    border: 2;
+    width: 200px;
+    height: 150px;
+    color: white;
+    color: black;
+    background-color: rgb(53, 111, 202);
+}
+.table1 td{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 6px;
+    color: rgb(173, 30, 229);
+}
+.tbt1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 10px;
+}.tbt2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 10px;
+}
+.tbt3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 10px;
 }
